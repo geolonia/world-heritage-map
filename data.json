@@ -17,7 +17,7 @@
     [
       "",
       "奈良県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/1.jpeg",
       "34.629654",
       "135.721503",
       "法隆寺地域の仏教建造物（法隆寺）",
@@ -29,7 +29,7 @@
     [
       "",
       "兵庫県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/2jpg",
       "34.8394324",
       "134.693894",
       "姫路城",
@@ -41,7 +41,7 @@
     [
       "",
       "鹿児島県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/3jpg",
       "30.318657",
       "130.655048",
       "屋久島",
@@ -53,7 +53,7 @@
     [
       "",
       "青森県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/4-1jpg",
       "40.56593109",
       "139.973717",
       "白神山地（十二湖）",
@@ -65,7 +65,7 @@
     [
       "",
       "秋田県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/4-2jpg",
       "40.31982806",
       "140.2953382",
       "白神山地（峨瓏の滝）",
@@ -77,7 +77,7 @@
     [
       "",
       "京都府",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/5-1jpg",
       "35.0395122",
       "135.728484",
       "古都京都の文化財（金閣寺）",
@@ -89,7 +89,7 @@
     [
       "",
       "滋賀県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/5-2jpg",
       "35.07049246",
       "135.8409605",
       "古都京都の文化財（延暦寺）",
@@ -101,7 +101,7 @@
     [
       "",
       "岐阜県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/6-1jpg",
       "36.25780319",
       "136.906227",
       "白川郷・五箇山の合掌造り集落（白川郷）",
@@ -113,7 +113,7 @@
     [
       "",
       "富山県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/6-2jpg",
       "36.42620607",
       "136.9358014",
       "白川郷・五箇山の合掌造り集落（五箇山）",
@@ -125,7 +125,7 @@
     [
       "",
       "広島県",
-      "https://raw.githubusercontent.com/geolonia/world-heritage-map/master/public/1.jpeg",
+      "https://geolonia.github.io/world-heritage-map/7jpg",
       "34.39544633",
       "132.4535472",
       "原爆ドーム",
@@ -137,7 +137,7 @@
     [
       "",
       "広島県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/8jpg",
       "34.29588324",
       "132.3200002",
       "厳島神社",
@@ -149,7 +149,7 @@
     [
       "",
       "奈良県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/9jpg",
       "34.68894166",
       "135.8398001",
       "古都奈良の文化財（東大寺）",
@@ -161,7 +161,7 @@
     [
       "",
       "栃木県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/10jpg",
       "36.75800558",
       "139.5987367",
       "日光の社寺（日光東照宮）",
@@ -173,7 +173,7 @@
     [
       "",
       "沖縄県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/11jpg",
       "26.21693686",
       "127.7194746",
       "琉球王国のグスク及び関連遺産群（首里城）",
@@ -185,7 +185,7 @@
     [
       "",
       "三重県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/12-1jpg",
       "34.35688812",
       "135.8700323",
       "紀伊山地の霊場と参詣道（花の窟神社）",
@@ -209,7 +209,7 @@
     [
       "",
       "和歌山県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/12-3jpg",
       "33.84045019",
       "135.773683",
       "紀伊山地の霊場と参詣道（熊野本宮大社）",
@@ -221,7 +221,7 @@
     [
       "",
       "北海道",
-      "",
+      "https://geolonia.github.io/world-heritage-map/13jpg",
       "44.19993964",
       "145.237734",
       "知床",
@@ -233,7 +233,7 @@
     [
       "",
       "島根県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/14jpg",
       "35.10515984",
       "132.4386865",
       "石見銀山遺跡とその文化的景観",
@@ -245,7 +245,7 @@
     [
       "",
       "東京都",
-      "",
+      "https://geolonia.github.io/world-heritage-map/15jpg",
       "27.09592425",
       "142.203315",
       "小笠原諸島",
@@ -257,7 +257,7 @@
     [
       "",
       "岩手県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/16jpg",
       "39.00172923",
       "141.1025732",
       "平泉－仏国土（浄土）を表す建築・庭園及び考古学的遺跡群（中尊寺）",
@@ -269,7 +269,7 @@
     [
       "",
       "静岡県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/17jpg",
       "35.34298328",
       "138.7257755",
       "富士山－信仰の対象と芸術の源泉",
@@ -281,7 +281,7 @@
     [
       "",
       "山梨県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/17-2jpg",
       "35.40960761",
       "138.7147892",
       "富士山－信仰の対象と芸術の源泉",
@@ -293,7 +293,7 @@
     [
       "",
       "群馬県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/18jpg",
       "36.25517161",
       "138.8873154",
       "富岡製糸場と絹産業遺産群",
@@ -305,7 +305,7 @@
     [
       "",
       "岩手県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-1.jpeg",
       "39.34391266",
       "141.6826169",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（橋野鉄鉱山）",
@@ -317,7 +317,7 @@
     [
       "",
       "静岡県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-2jpg",
       "35.03966111",
       "138.9620432",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（韮山反射炉）",
@@ -329,7 +329,7 @@
     [
       "",
       "山口県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-3jpg",
       "34.42817741",
       "131.4182875",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（萩反射炉）",
@@ -341,7 +341,7 @@
     [
       "",
       "福岡県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-4jpg",
       "33.01383311",
       "130.4559925",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（三池炭鉱 宮原坑）",
@@ -353,7 +353,7 @@
     [
       "",
       "熊本県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-5jpg",
       "32.62189381",
       "130.4557421",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（三角旧港）",
@@ -365,7 +365,7 @@
     [
       "",
       "佐賀県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-6jpg",
       "33.2074899",
       "130.3399908",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（三重津海軍所跡）",
@@ -377,7 +377,7 @@
     [
       "",
       "長崎県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-7jpg",
       "32.73408092",
       "129.8690024",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（旧グラバー住宅）",
@@ -389,7 +389,7 @@
     [
       "",
       "鹿児島県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/19-8.jpeg",
       "31.64706814",
       "130.5521898",
       "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業（関吉の疎水溝）",
@@ -401,7 +401,7 @@
     [
       "",
       "東京都",
-      "",
+      "https://geolonia.github.io/world-heritage-map/20jpg",
       "35.71539576",
       "139.7758676",
       "国立西洋美術館本館",
@@ -413,7 +413,7 @@
     [
       "",
       "福岡県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/21jpg",
       "33.83084754",
       "130.5153022",
       "「神宿る島」宗像・沖ノ島と関連遺産群（宗像大社辺津宮）",
@@ -425,7 +425,7 @@
     [
       "",
       "長崎県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/22-1jpg",
       "33.01245891",
       "129.1828427",
       "長崎と天草地方の潜伏キリシタン関連遺産（頭ヶ島天主堂）",
@@ -437,7 +437,7 @@
     [
       "",
       "熊本県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/22-2jpg",
       "32.31237384",
       "130.0257913",
       "長崎と天草地方の潜伏キリシタン関連遺産（﨑津教会）",
@@ -449,7 +449,7 @@
     [
       "",
       "大阪府",
-      "",
+      "https://geolonia.github.io/world-heritage-map/23jpg",
       "34.56386306",
       "135.4872082",
       "百舌鳥・古市古墳群（大仙陵古墳）",
@@ -461,7 +461,7 @@
     [
       "",
       "鹿児島県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/24-1.jpeg",
       "28.30414545",
       "129.3867583",
       "奄美大島、徳之島、沖縄島北部及び西表島（奄美大島）",
@@ -473,7 +473,7 @@
     [
       "",
       "沖縄県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/24-2jpg",
       "24.33482285",
       "123.8065073",
       "奄美大島、徳之島、沖縄島北部及び西表島（西表島）",
@@ -485,7 +485,7 @@
     [
       "",
       "北海道",
-      "",
+      "https://geolonia.github.io/world-heritage-map/25-1jpg",
       "42.4011824",
       "140.9110853",
       "北海道・北東北の縄文遺跡群（北黄金貝塚）",
@@ -497,7 +497,7 @@
     [
       "",
       "青森県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/25-2jpg",
       "40.81056398",
       "140.6967642",
       "北海道・北東北の縄文遺跡群（三内丸山遺跡）",
@@ -509,7 +509,7 @@
     [
       "",
       "岩手県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/25-3jpg",
       "40.1975714",
       "141.3081523",
       "北海道・北東北の縄文遺跡群（御所野遺跡）",
@@ -521,7 +521,7 @@
     [
       "",
       "秋田県",
-      "",
+      "https://geolonia.github.io/world-heritage-map/25-4jpg",
       "40.27161807",
       "140.8038628",
       "北海道・北東北の縄文遺跡群（大湯環状列石）",
