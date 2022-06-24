@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/world-heritage-map/static/css/main.cb1bae57.chunk.css",
-    "main.js": "/world-heritage-map/static/js/main.99e14539.chunk.js",
-    "main.js.map": "/world-heritage-map/static/js/main.99e14539.chunk.js.map",
+    "main.js": "/world-heritage-map/static/js/main.a9455c84.chunk.js",
+    "main.js.map": "/world-heritage-map/static/js/main.a9455c84.chunk.js.map",
     "runtime-main.js": "/world-heritage-map/static/js/runtime-main.25c36e60.js",
     "runtime-main.js.map": "/world-heritage-map/static/js/runtime-main.25c36e60.js.map",
     "static/js/2.036149f7.chunk.js": "/world-heritage-map/static/js/2.036149f7.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.25c36e60.js",
     "static/js/2.036149f7.chunk.js",
     "static/css/main.cb1bae57.chunk.css",
-    "static/js/main.99e14539.chunk.js"
+    "static/js/main.a9455c84.chunk.js"
   ]
 }
