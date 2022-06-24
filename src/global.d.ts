@@ -1,4 +1,4 @@
-declare namespace Iemeshi {
+declare namespace Pwamap {
   type ShopData = {
     index: number;
     distance?: number;

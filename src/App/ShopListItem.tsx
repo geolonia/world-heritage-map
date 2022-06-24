@@ -1,10 +1,10 @@
 import { BsChevronCompactRight } from 'react-icons/bs'
-import { makeDistanceLabelText } from './distance-label'
 import './ShopListItem.scss'
 import { Link } from "react-router-dom";
+import { makeDistanceLabelText } from "./distance-label";
 
 type Props = {
-  data: Iemeshi.ShopData;
+  data: Pwamap.ShopData;
   popupHandler: Function;
   queryCategory: string | null;
 };
@@ -18,7 +18,6 @@ const Content = (props: Props) => {
   const category = props.data['カテゴリ']
   const image = props.data['画像']
 
-
   const isCategoryPage = props.queryCategory ? true :false
 
   return (
@@ -26,14 +25,14 @@ const Content = (props: Props) => {
       <div className="shop-link">
         <h2 className="shop-title" onClick={clickHandler}>{props.data['スポット名']}</h2>
         <div className='tag-box'>
-          <span className="nowrap">
-            {
-              !isCategoryPage &&
+          {
+            !isCategoryPage &&
+            <span className="nowrap">
               <Link to={`/list?category=${category}`}>
                 <span className="category">{category}</span>
               </Link>
-            }
-          </span>
+            </span>
+          }
           <span className="nowrap">{distanceTipText && <span className="distance">現在位置から {distanceTipText}</span>}</span>
         </div>
 
