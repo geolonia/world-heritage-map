@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 /**
- * @file Google スプレッドシートのデータをダウンロードし環境変数として react-scripts に読み込ませる
+ * @file Google スプレッドシートのデータをダウンロードする
  */
 
 const fs = require("fs");
@@ -21,8 +20,6 @@ const table2json = (table) => {
   const header = table.values[0]
   let records = table.values.slice(1)
 
-  console.log(records)
-
   // データが空の時に、空の配列を返す
   if (records.length === 0) {
     records = Array(header.length).fill('');
@@ -39,6 +36,30 @@ const table2json = (table) => {
   });
 
   return features[0]
+}
+
+const downloadLogo = async (logo_image_url) => {
+
+  const distLogoFilePath = path.join(process.cwd(), "/public/logo.svg");
+
+  // スプレッドシートのデータをダウンロードする
+
+  try {
+
+    const res = await fetch(logo_image_url);
+    const svg = await res.text();
+    fs.writeFileSync(distLogoFilePath, svg);
+
+  } catch (error) {
+
+    console.log(error)
+    process.stderr.write(
+      `ロゴ画像のダウンロードに失敗しました。正しいURLか確認して下さい。\n`
+    );
+    process.exit(1);
+
+  }
+
 }
 
 const fetchDataSetEnv = async () => {
@@ -63,7 +84,7 @@ const fetchDataSetEnv = async () => {
     {
       name: "基本データ",
       exportFilePath: "/src/config.json"
-    }
+    },
   ]
 
   let config;
@@ -77,11 +98,16 @@ const fetchDataSetEnv = async () => {
       const res = await fetch(sheet_url);
       config = await res.json();
 
-      console.log(config)
-
       if (sheet.name === "基本データ") {
         // ヘッダーをキーとしたJSONに変換する
         config = table2json(config);
+      }
+
+      // SVG 形式のロゴ画像が指定されていればダウンロードする
+      if (config.logo_image_url && config.logo_image_url.match(/\.svg|\.SVG/)) {
+
+        await downloadLogo(config.logo_image_url);
+
       }
 
     } catch (error) {
@@ -90,46 +116,15 @@ const fetchDataSetEnv = async () => {
       process.stderr.write(
         `スプレッドシートのダウンロードに失敗しました。URLとAPIキー、閲覧権限が正しく設定されている事を確認して下さい。\n`
       );
-      process.exit(2);
+      process.exit(1);
     }
 
     fs.writeFileSync(path.join(process.cwd(), sheet.exportFilePath), JSON.stringify(config, null, 2));
 
   }
-=======
-const fs = require("fs");
-const path = require("path")
-const srcConfigFilePath = path.join(process.cwd(), "/src/config.json");
 
-let config;
-try {
-  config = JSON.parse(fs.readFileSync(srcConfigFilePath));
->>>>>>> upstream/master
-
-  const envText =
-    Object.keys(config)
-      // オブジェクト等は環境変数として出力しない
-      .filter((key) => typeof config[key] === "string" || typeof config[key] === "number")
-      .map((key) => `REACT_APP_${key.toUpperCase()}="${config[key]}"`)
-<<<<<<< HEAD
-      .join("\n") + "\nSKIP_PREFLIGHT_CHECK=true\n";
-
-  fs.writeFileSync(path.join(process.cwd(), '.env'), envText)
   process.exit(0);
 
 }
 
 fetchDataSetEnv();
-=======
-      .join("\n");
-
-  fs.writeFileSync(path.join(process.cwd(), '.env'), envText)
-
-} catch (error) {
-  process.stderr.write(`${srcConfigFilePath} が存在しません。\n`);
-  process.exit(1);
-}
-
-
-
->>>>>>> upstream/master

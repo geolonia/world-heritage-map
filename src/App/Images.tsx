@@ -4,16 +4,26 @@ import Shop from './Shop'
 import './Images.scss'
 
 type Props = {
+<<<<<<< HEAD
   data: Iemeshi.ShopData[];
+=======
+  data: Pwamap.ShopData[];
+>>>>>>> upstream/master
 }
 
 const Content = (props: Props) => {
 
   const { data } = props;
   const [validImageList, setValidImageList ] = useState<JSX.Element[]>([]);
+<<<<<<< HEAD
   const [shop, setShop] = useState<Iemeshi.ShopData | undefined>()
 
   const popupHandler = (shop: Iemeshi.ShopData) => {
+=======
+  const [shop, setShop] = useState<Pwamap.ShopData | undefined>()
+
+  const popupHandler = (shop: Pwamap.ShopData) => {
+>>>>>>> upstream/master
     if (shop) {
       setShop(shop)
     }

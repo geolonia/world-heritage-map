@@ -17,7 +17,11 @@ html, body, #root
 #root > .loader
 {
   width: 192px;
+<<<<<<< HEAD
   font-size: 48px;
+=======
+  font-size: 32px;
+>>>>>>> upstream/master
   text-align: center;
 }
 

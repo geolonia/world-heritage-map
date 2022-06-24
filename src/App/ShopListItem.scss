@@ -37,11 +37,17 @@
     cursor: pointer;
   }
 
+<<<<<<< HEAD
   .category,
   .distance
   {
     border-radius: 4px;
     background-color: #41b0f5;
+=======
+  .category, .distance
+  {
+    border-radius: 4px;
+>>>>>>> upstream/master
     color: #ffffff;
     padding: 4px;
     font-size: 0.8rem;
@@ -50,6 +56,18 @@
   .category
   {
     background-color: #f5b041;
+<<<<<<< HEAD
+=======
+    &:hover
+    {
+      opacity: 0.8;
+    }
+  }
+
+  .distance
+  {
+    background-color: #41b0f5;
+>>>>>>> upstream/master
     margin-right: 10px;
     &:hover
     {

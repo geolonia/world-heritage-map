@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 declare namespace Iemeshi {
+=======
+declare namespace Pwamap {
+>>>>>>> upstream/master
   type ShopData = {
     index: number;
     distance?: number;

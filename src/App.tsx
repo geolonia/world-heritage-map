@@ -15,7 +15,11 @@ import table2json from "./lib/table2json";
 // import config from './config.json'
 
 
+<<<<<<< HEAD
 const sortShopList = async (shopList: Iemeshi.ShopData[]) => {
+=======
+const sortShopList = async (shopList: Pwamap.ShopData[]) => {
+>>>>>>> upstream/master
 
   // 新着順にソート
   return shopList.sort(function (item1, item2) {
@@ -25,7 +29,11 @@ const sortShopList = async (shopList: Iemeshi.ShopData[]) => {
 }
 
 const App = () => {
+<<<<<<< HEAD
   const [shopList, setShopList] = React.useState<Iemeshi.ShopData[]>([])
+=======
+  const [shopList, setShopList] = React.useState<Pwamap.ShopData[]>([])
+>>>>>>> upstream/master
 
   React.useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/data.json?timestamp=${new Date().getTime()}`)
@@ -44,9 +52,15 @@ const App = () => {
 
         let features = table2json(data.values);
 
+<<<<<<< HEAD
         const nextShopList: Iemeshi.ShopData[] = []
         for (let i = 0; i < features.length; i++) {
           const feature = features[i] as Iemeshi.ShopData
+=======
+        const nextShopList: Pwamap.ShopData[] = []
+        for (let i = 0; i < features.length; i++) {
+          const feature = features[i] as Pwamap.ShopData
+>>>>>>> upstream/master
 
           if (!feature['緯度'] || !feature['経度'] || !feature['スポット名']) {
             continue;

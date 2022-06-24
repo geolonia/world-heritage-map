@@ -6,7 +6,11 @@ Geolonia PWA は、GitHub と Google Sheets を使って、素早く PWA の地�
 
 利用方法はこちらのマニュアルをご覧ください。
 
+<<<<<<< HEAD
 [Geolonia PWA マップ ユーザーマニュアル](https://blog.geolonia.com/2022/05/17/pwamap-manual-setup.html)
+=======
+[Geolonia PWA マップ ユーザーマニュアル](https://blog.geolonia.com/2022/05/17/pwamap-manual-setup.html) 
+>>>>>>> upstream/master
 
 ## 注意事項
 このプログラムは自由にカスタマイズ可能ですが、利用についてはサポート対象外となります。
