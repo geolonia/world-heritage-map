@@ -45,14 +45,6 @@
       background-color: #f5b041;
       color: #ffffff;
     }
-<<<<<<< HEAD
-    &.distance
-    {
-      background-color: #41b0f5;
-      color: #ffffff;
-    }
-=======
->>>>>>> upstream/master
     & + sup {
       margin-left: .5em;
     }
@@ -90,18 +82,9 @@
     }
   }
 
-<<<<<<< HEAD
-  .category,
-  .category-sub,
-  .distance
-  {
-    border-radius: 4px;
-    background-color: #41b0f5;
-=======
   .category, .distance
   {
     border-radius: 4px;
->>>>>>> upstream/master
     color: #ffffff;
     padding: 4px;
     font-size: 0.8rem;
@@ -116,56 +99,9 @@
     }
   }
 
-<<<<<<< HEAD
-  .category-sub
-  {
-    background-color: #A0CD63;
-    margin-left: 10px;
-    &:hover
-    {
-      opacity: 0.8;
-    }
-  }
-
-  .distance
-  {
-    margin-left: 10px;
-  }
-
-  .meta
-  {
-    margin: 15px 0;
-    & > *
-    {
-      margin: 10px 0;
-    }
-    .rating
-    {
-      display: flex;
-      align-items: center;
-      & > p
-      {
-        margin-right: 20px;
-      }
-    }
-    .place-url
-    {
-      overflow-wrap: break-word;
-    }
-  }
-
-  .rating-stars
-  {
-    cursor: pointer;
-    & > div > span
-    {
-      cursor: pointer!important;
-    }
-=======
   .distance
   {
     background-color: #41b0f5;
->>>>>>> upstream/master
     &:hover
     {
       opacity: 0.8;

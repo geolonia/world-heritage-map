@@ -22,12 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
-# data
-src/data.json
-src/config.json
-
-=======
->>>>>>> upstream/master
 
 .env

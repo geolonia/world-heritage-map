@@ -2,19 +2,11 @@ import React from "react";
 import Links from './Links'
 import './Shop.scss'
 import { AiOutlineClose } from 'react-icons/ai'
-<<<<<<< HEAD
-import { makeDistanceLabelText } from "./distance-label";
-import { Link } from "react-router-dom";
-
-type Props = {
-  shop: Iemeshi.ShopData;
-=======
 import { Link } from "react-router-dom";
 import { makeDistanceLabelText } from "./distance-label";
 
 type Props = {
   shop: Pwamap.ShopData;
->>>>>>> upstream/master
   close: Function;
 }
 
@@ -76,19 +68,12 @@ const Content = (props: Props) => {
           <>
             <h2>{shop['スポット名']}</h2>
             <div>
-<<<<<<< HEAD
-              <Link to={`/list?category=${category}`}>
-                <span onClick={clickHandler} className="category">{category}</span>
-              </Link>
-              <span className="nowrap">{distanceTipText && <span className="distance">現在位置から {distanceTipText}</span>}</span>
-=======
               <span className="nowrap">
                 <Link to={`/list?category=${category}`}>
                   <span onClick={clickHandler} className="category">{category}</span>
                 </Link>
               </span>
               <span className="nowrap">{distanceTipText && <span className="distance">現在位置から {distanceTipText}</span> }</span>
->>>>>>> upstream/master
             </div>
 
             <div style={{margin: "24px 0"}}><Links data={shop} /></div>
@@ -105,11 +90,7 @@ const Content = (props: Props) => {
               data-navigation-control="off"
             ></div>
 
-<<<<<<< HEAD
-            <p><a className="small" href={`http://maps.apple.com/?q=${shop['緯度']},${shop['経度']}`}>おすすめスポットまでの道順</a></p>
-=======
             <p><a className="small" href={`http://maps.apple.com/?q=${shop['緯度']},${shop['経度']}`}>スポットまでの道順</a></p>
->>>>>>> upstream/master
 
           </>
           :

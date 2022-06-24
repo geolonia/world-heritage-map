@@ -6,11 +6,7 @@ import setCluster from './setCluster'
 import Shop from './Shop'
 
 type Props = {
-<<<<<<< HEAD
-  data: Iemeshi.ShopData[];
-=======
   data: Pwamap.ShopData[];
->>>>>>> upstream/master
 };
 
 const CSS: React.CSSProperties = {
@@ -37,12 +33,6 @@ const hidePoiLayers = (map: any) => {
   }
 }
 
-<<<<<<< HEAD
-const Content = (props: Props) => {
-  const mapNode = React.useRef<HTMLDivElement>(null);
-  const [mapObject, setMapObject] = React.useState<any>()
-  const [shop, setShop] = React.useState<Iemeshi.ShopData | undefined>(undefined)
-=======
 const parseHash = (url?: Location | URL) => {
   const qstr = (url || window.location).hash.substring(2);
   const q = new URLSearchParams(qstr);
@@ -62,7 +52,6 @@ const Content = (props: Props) => {
   const [mapObject, setMapObject] = React.useState<any>()
   const [shop, setShop] = React.useState<Pwamap.ShopData | undefined>(undefined)
   const [ zLatLngString, setZLatLngString ] = React.useState<string>('');
->>>>>>> upstream/master
 
   const addMarkers = (mapObject: any, data: any) => {
 
@@ -176,8 +165,6 @@ const Content = (props: Props) => {
   }, [mapObject, props.data])
 
   React.useEffect(() => {
-<<<<<<< HEAD
-=======
     const hash = parseHash();
     if (zLatLngString) {
       hash.set('map', zLatLngString);
@@ -187,7 +174,6 @@ const Content = (props: Props) => {
   }, [ zLatLngString ]);
 
   React.useEffect(() => {
->>>>>>> upstream/master
     // Only once reder the map.
     if (!mapNode.current || mapObject) {
       return
@@ -203,13 +189,6 @@ const Content = (props: Props) => {
       container: mapNode.current,
       style: 'geolonia/gsi',
       bounds: bounds,
-<<<<<<< HEAD
-      fitBoundsOptions: { padding: 50 }
-    });
-
-    if (bounds) {
-      map.fitBounds(bounds, { padding: 50 })
-=======
       fitBoundsOptions: { padding: 50 },
     });
 
@@ -229,14 +208,11 @@ const Content = (props: Props) => {
 
       map.fitBounds(bounds, { padding: 50 })
 
->>>>>>> upstream/master
     }
 
     const onMapLoad = () => {
       hidePoiLayers(map)
       setMapObject(map)
-<<<<<<< HEAD
-=======
 
       map.on('moveend', () => {
         // see: https://github.com/maplibre/maplibre-gl-js/blob/ba7bfbc846910c5ae848aaeebe4bde6833fc9cdc/src/ui/hash.js#L59
@@ -252,7 +228,6 @@ const Content = (props: Props) => {
 
         setZLatLngString(`${zStr}/${lat}/${lng}`);
       });
->>>>>>> upstream/master
     }
 
     const orienteationchangeHandler = () => {
@@ -276,57 +251,6 @@ const Content = (props: Props) => {
   }
 
   return (
-<<<<<<< HEAD
-    <>
-      <select
-        name="styles"
-        id="style-select"
-        style={{
-          position: "absolute",
-          zIndex: 2,
-          margin: "10px"
-        }}
-        onChange={(e) => {
-
-          const selectStyle = e.target.value
-
-          if (!mapObject) {
-            return
-          }
-
-          if (selectStyle === 'gsi') {
-            mapObject.setStyle('https://cdn.geolonia.com/style/geolonia/gsi/ja.json')
-          } else if (selectStyle === 'basic') {
-            mapObject.setStyle('https://geoloniamaps.github.io/basic/style.json')
-          } else if (selectStyle === 'midnight') {
-            mapObject.setStyle('https://cdn.geolonia.com/style/geolonia/midnight/ja.json')
-          }
-
-          addMarkers(mapObject, props.data)
-
-        }}
-      >
-        <option value="gsi">GSI</option>
-        <option value="basic">Basic</option>
-        <option value="midnight">Midnight</option>
-      </select>
-      <div style={CSS}>
-        <div
-          ref={mapNode}
-          style={CSS}
-          data-geolocate-control="on"
-          data-marker="off"
-          data-gesture-handling="off"
-        ></div>
-        {shop ?
-          <Shop shop={shop} close={closeHandler} />
-          :
-          <></>
-        }
-      </div>
-    </>
-
-=======
     <div style={CSS}>
       <div
         ref={mapNode}
@@ -341,7 +265,6 @@ const Content = (props: Props) => {
         <></>
       }
     </div>
->>>>>>> upstream/master
   );
 };
 

@@ -4,11 +4,6 @@ import Shop from './Shop'
 import './List.scss'
 import { useSearchParams } from "react-router-dom";
 import InfiniteScroll from 'react-infinite-scroll-component';
-<<<<<<< HEAD
-
-type Props = {
-  data: Iemeshi.ShopData[];
-=======
 import { askGeolocationPermission } from '../geolocation'
 import * as turf from "@turf/turf"
 
@@ -44,18 +39,12 @@ const sortShopList = async (shopList: Pwamap.ShopData[]) => {
   } else {
     return shopList
   }
->>>>>>> upstream/master
 }
 
 const Content = (props: Props) => {
 
-<<<<<<< HEAD
-  const [shop, setShop] = React.useState<Iemeshi.ShopData | undefined>()
-  const [data, setData] = React.useState<Iemeshi.ShopData[]>(props.data)
-=======
   const [shop, setShop] = React.useState<Pwamap.ShopData | undefined>()
   const [data, setData] = React.useState<Pwamap.ShopData[]>(props.data)
->>>>>>> upstream/master
   const [list, setList] = React.useState<any[]>([]);
   const [page, setPage] = React.useState(10);
   const [hasMore, setHasMore] = React.useState(true);
@@ -76,10 +65,6 @@ const Content = (props: Props) => {
     let isMounted = true
     // prevent memory leak
     if (isMounted) {
-<<<<<<< HEAD
-      setList(data.slice(0, page))
-      setData(data)
-=======
 
       const orderBy = process.env.REACT_APP_ORDERBY
 
@@ -98,7 +83,6 @@ const Content = (props: Props) => {
         setList(data.slice(0, page))
         setData(data)
       }
->>>>>>> upstream/master
     }
 
     return () => {
@@ -107,11 +91,7 @@ const Content = (props: Props) => {
   }, [props.data, queryCategory, page])
 
 
-<<<<<<< HEAD
-  const popupHandler = (shop: Iemeshi.ShopData) => {
-=======
   const popupHandler = (shop: Pwamap.ShopData) => {
->>>>>>> upstream/master
     if (shop) {
       setShop(shop)
     }
@@ -156,11 +136,7 @@ const Content = (props: Props) => {
       >
         {
           list.length === 0 ?
-<<<<<<< HEAD
-            <div className="shop-list-not-found">お探しのおすすめの場所が見つかりませんでした</div>
-=======
             <div className="shop-list-not-found">お探しの場所が見つかりませんでした</div>
->>>>>>> upstream/master
             :
             list.map((item, index) => {
 
