@@ -5,7 +5,5 @@
   "logo_image_url": "https://geolonia.github.io/world-heritage-map/icon-world-heritage.svg",
   "background_image_url": "https://geolonia.github.io/world-heritage-map/background.jpg",
   "primary_color": "#C33",
-  "orderby": "distance",
-  "id": "geolonia",
-  "repository": "world-heritage-map"
+  "orderby": "distance"
 }
